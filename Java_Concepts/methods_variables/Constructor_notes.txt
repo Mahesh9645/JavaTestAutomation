@@ -1,0 +1,71 @@
+========================================Constructor===========================================================================
+
+Constructor name is same has Class name.
+Constructor is a special type of method which gets executed whenever we created an object.
+***The main purpose of constructor is to initialise a non static variable.***
+
+Rules for defining constructor
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+1. Constructor can be public, private, protected or default.
+2. Constructor cannot be static, non static, final or abstract.
+3. Constructor name must be same as that of classname.
+4. Constructor does not have any return type not even void.
+5. Constructor can be with arguments or without arguments.
+
+Syntax: AccessModifier consructorname(arg/no args)
+   {
+      //body of constructor
+    }
+
+Types of Constructors:‐
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+They are of 2 types‐
+1. No argument Constructor
+2. Parameterized Constructor
+
+No argument Constructor
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+‐If a constructor does not have any argument it is called as No argument constructor.
+
+--------drawback----------
+One of the drawbacks of no argument constructor is, it provides same value for every object.
+⦁ Therefore to overcome this drawback, we go for parameterized constructor.
+
+Parameterised Constructor
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+⦁ If a constructor contains any arguments, it is called as parameterised constructor.
+⦁ While creating Object, we have to pass particular argument as constructor.
+
+=======================================this keyword =====================================
+the this keyword is a reference variable that refers to the current class object.
+
+-->In Parameterized Constructor (name=name1;)parameter(arguments) are assigned to the variables .
+--->To avoid the confusion we use this keyword.
+( you use both ways (name =name1) or (this.name=name) )
+
+--->if you use name = name1 then, if you use  more no.of non static variables then you will confusion about parameter and variables
+----> So, that way we use (this keyword) then name =name (you refer that parameter and non static variables assign) by this you refer 
+      same class non static varibles .
+
+public class this_constructor {  
+
+	// Instance variables (now accessible throughout the class)
+	
+	String name;
+	int emp_id;
+	
+	public this_constructor(String name, int emp_id) {
+		this.name=name;
+		this.emp_id=emp_id;
+	}
+
+	public static void main(String[] args) {
+
+		this_constructor obj = new this_constructor("Nithya",502);
+		this_constructor obj1 = new this_constructor("Sai",500);
+		
+		System.out.println(obj.name+" "+obj.emp_id);
+		
+	}
+}
+

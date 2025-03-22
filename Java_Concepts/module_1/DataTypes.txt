@@ -1,0 +1,67 @@
+DATA TYPES AND VARIABLES
+--------------------------------------------
+
+Data : Any information is called as data.
+  Ex: name,age,height,marks,percentage and salary etc
+
+Data Type : it defines type of data
+===========
+
+Divided into 2 types
+--------------------------
+1.Primitive(System define)
+2.Non primitive(user define)
+
+Primitive data type :
+-------------------------
+-These are system define data types
+-These are fixed in there memory size
+-These are 8 in numbers
+
+They are 
+1.byte               ----1 byte
+2.boolean            ----1 byte or NO size 
+3.short              -----2 byte
+4.char               -----2 byte
+5.int                -------4 byte
+6.float              -------4 byte
+7.long               -------8 byte
+8.double              ------8 byte
+
+Note:
+-------
+-byte,short,int,long is use for Numericals or integers
+-double and float use for decimals
+-when we store value greater than 2,147,438,647 we use long 
+
+Non primitive data type :
+-------------------------------
+-These are not fixed in there memoy size.
+
+1.String
+2.Array 
+
+Note:
+-------
+-char can be used for single characters
+-If we have more than one character we should use String
+
+
+====================================================Variables ===================================================================:
+
+-Variables are used to store the data for printing
+
+1.Variable Declaration
+--------------------------
+Syntax : Datatype variablename;
+ Ex: int a;
+ 
+2.Variable Initialisation
+---------------------------
+Syntax: Variablename=value;
+ a=100;
+ 
+ -we can declare and intialise a variable in single statement also
+ int a=22;
+ 
+

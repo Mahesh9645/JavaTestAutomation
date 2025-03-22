@@ -1,0 +1,64 @@
+Object class : 
+-------------- 
+• it is super class to all pre define and user define classes. 
+• Object class is present in java.lang package. 
+• javap java.lang.Object
+
+Method of object class: 
+----------------------- 
+1. getclass():class----->final 
+2. object1.equals(object2):boolean 
+3. toString():String 
+4. hashcode():int 
+5. notify():void----->final 
+6. notifyAll():void---->final 
+7. wait():void------->final 
+8. wait(long timeout):void---->final 
+9. wait(long timeout,int nanos):void---->final 
+10.finalise() 
+11.clone()
+
+toString(): 
+-----------
+• it's a method of object class.
+• When we call toString()on any object, it provides complete  information of an object. 
+• Complete information consists of 
+   packagename.classname@objectaddress 
+     Ex:mypackage.Sample@zzh33453
+     
+     
+ hashcode() 
+----------- 
+• it's a method of object class. 
+• Whenever we call hashcode() on any object, it prints the hashcode 
+number for given object. 
+• Hashcode number is simply a 32bit integer number. 
+• it is a unique number allocated to every object by JVM. 
+• if the object address are same they will have same hashcode number.
+
+
+Conclusion : 
+----------- 
+1. Output we got from toString() in practical there is no use of it, 
+because if package changes and class changes output won't be same. 
+So, it is programmer's responsibility to overide this toString() and 
+get some meaningful output. 
+2. Output we are getting from hashCode() in practical there is no use 
+of it to programmer because if object address changes, it changes 
+hashcode number. So, it is our responsibility to override hashCode() 
+and get meaningful output
+
+
+equals() 
+--------- 
+• it's a method of object class it compares two objects based on object
+address.
+• if object address is same, output is true else it is false.
+
+Conclusion 
+----------- 
+equals() compares the object based on there object address which is not 
+a proper way for comparison so it is programmers's responsibility to 
+override equals(). So that, it should compare based on features not based 
+on address.
+

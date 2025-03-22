@@ -1,0 +1,76 @@
+OPERATORS :-
+----------
+1.Arithemetic Operators : 
+-----------------------
++ ====> Addition
+- ====> Subtraction
+\ ====> Division (output:Coefficient)
+* ====> Multiplication
+% ====> Mode (output:Remainder)
+
+2.Operator Overloading :
+-----------------------
+-Java doesnot support operator overloading but there is one exception as like + operator, + is an overloaded operator
+because it act as addition as well as concatination.
+
+         Concatination
+        ------------------
+          - If any one operand is String plus operator will always act as concatination
+
+3.Assignment operator(=) :
+---------------------------------
+- it is use to assign or store the value into a variable.
+    Ex: int a = 10,b=30;
+
+4.Comparison operator(==) :
+-------------------------
+- it compares values and give output as boolean value.
+
+5.Relational Operators :
+-----------------------
+- checks relationship between two values and result will be boolean
+> --------------> greater
+< --------------> smaller
+>= --------------> greater than equals
+<= --------------> lesser than equals
+!= --------------> not equals
+Result will be either true or false
+
+6.Logical Operrators :
+----------------------------
+AND :
+-------
+- it compares two inputs and if both inputs are true then output is true or else false.
+
+OR :
+-------
+- it compares two inputs and if any one input is true then output is true or else false.
+- it is represented as || (in below ex 0 indicate false, 1 indicate true)
+
+7.Unary Operators :
+-------------------------
+a) Increment operator :
+------------------------------
+- It increases the value by one.
+- It is of two types
+1.pre-increment
+2.post-increment
+
+b) Decrement operator :
+---------------------
+- It decreases the value by on
+- It is of two types
+1.pre-decrement
+2.post-decrement
+
+
+7.Combinational or Compound Operators :
+-------------------------------------
+1. += ( compound addition assignment operator )
+For Ex: a=a+b; can also be written as
+a+=b;//by using combinational or compound operator
+ Ex: c=a+b//we cannot apply combinational operator
+2. -= ( compound subtraction assignment operator )
+3. *= ( compound multiplication assignment operator )
+4. /= ( compound division assignment operator )
+5. %= ( compound modulo assignment operator )

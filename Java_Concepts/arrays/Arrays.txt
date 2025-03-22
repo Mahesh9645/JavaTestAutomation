@@ -1,0 +1,25 @@
+ARRAYS 
+--------- 
+• An array is collection of homogenous elements(data).
+• Whenever we want to use multiple or group of elements or data at same
+time we go for arrays.
+• for ex: if i want to use 1 to 100 at same time, its not possible to
+store in variables and use it because it is very lengthy process so
+for such kind of situation, java has given arays.
+• In java an array is an Object.
+
+Syntax:
+=======
+arraytype arrayname[]=new arraytype[size];
+
+
+Length variable: 
+---------------- 
+• It provides length of array and length will always calculated from
+1.
+ex: int a[]=new int[300];
+System.out.println(a.length); 
+Output is :300 	
+
+• Array stores only homogeneous data i.e, in integer array we can add only integer data, if we add any other type of data 
+we wil get compile time error.
