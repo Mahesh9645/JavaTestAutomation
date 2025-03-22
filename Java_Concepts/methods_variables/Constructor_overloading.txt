@@ -1,0 +1,96 @@
+
+=================================Constructor overloading ====================================================
+
+Constructor Overloading
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+⦁ The process of developing multiple CONSTRUCTOR with same constructor name but different argument list is called as constructor Overloading.
+
+Important points 
+================
+1.We can't create duplicate constructor in a class.
+
+Rules For Arguments List:‐
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+1. Between the constructors number of arguments should be different.
+2. Between the constructors type(Datatype) of arguments should be different.
+3. Between the constructors position or sequence of arguments should be different.
+
+
+=======================================Constructor chaining===================================================================
+
+Constructor Chaining
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+⦁ The process of calling one Constructor from another Constructor is called as Constructor chaining.
+
+---> Constructor chaining can be achieved in two ways‐
+1. Call to this‐‐‐‐‐‐‐‐‐‐>represented as this()
+2. Call to Super‐‐‐‐‐‐‐‐‐>represented as super()
+
+1.Call to this():
+=================
+Calling one constructor from another constructor of the same class is called call to this().
+
+	class Add{
+	
+     public Add()
+     {
+       this(100,200);         //call another const of same class which has 2 integer args
+       System.out.println("Default add constructor");
+      }
+
+     public Add(int i,int j)
+     {
+       this(223.5,10);          //call another const of same class which has 2args 1st is double 2nd is int
+       System.out.println("Result of int+int is : "+(i+j));
+     }
+
+     public Add(double d,int i)
+     {
+        System.out.println("Result of double+int is : "+(d+i));
+     }
+
+   public static void main(String args[])
+     {
+        Add a1=new Add();
+     }
+} 
+        
+OUTPUT:
+======
+Result of double+int is : 233.5
+Result of int+int is : 300
+Default add constructor
+
+2.Call to super ‐ super():
+=========================
+
+The process of calling one contructor from another constructor of different class is called as call to super.
+
+class A   
+{
+   public A(int i)
+   {
+    System.out.println("A class default constructor");
+   }
+}
+class B extends A
+{
+   public B()
+   {
+    super(100);//Explictly we added
+
+    System.out.println("B class Default Constructor");
+    }
+}
+public class Check
+{
+  public static void main(String args[])
+  {
+    B b1=new B();
+  }
+}
+
+
+Output :
+A class default constructor
+B class Default Constructor

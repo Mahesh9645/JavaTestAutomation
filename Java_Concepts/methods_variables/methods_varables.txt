@@ -1,9 +1,11 @@
 Local Variables:
+=================
 - Defined inside a method.
 - Can only be used within that method.
 - Must be given a value before use (Java does not assign any default value).
 
 Global (Static) Variables:
+===========================
 - Defined outside a method but inside a class.
 - Can be used anywhere in the class.
 - If not assigned a value, Java gives a default value.
@@ -33,3 +35,20 @@ Conclusion points
 5. static method can be called directly from static methods
 6. static method can be called directly from non static methods
 7. Non static method cannot be called directly from static methods
+8.Non static method can be called directly from non static methods
+
+
+
+
+1. static to static -- diectly acces
+2. non static to non static --- directly access
+3.static to nonstatic ---- directly access
+4. non satic to static ----- not directly access need created object
+
+ 
+ 
+Method signature = method name 
+
+AccessModifier NonAccessModifier returntype-------->Method Header(public static void )
+
+Methodname(Arguments)--------->Method signature (add(int a))

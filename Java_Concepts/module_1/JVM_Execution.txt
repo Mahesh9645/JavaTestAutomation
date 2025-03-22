@@ -1,0 +1,32 @@
+Important points
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+1. First JVM will enter into stack area by making a call to class Loader.
+2. class loader is like a function(program) whose job is to load all static members into static pool area(SPA).
+3. SPA is a part of heap area.
+4. Once class loader loads all static members into SPA its job is done, so it will come out of stack area.
+5. Next JVM will make a call to main method.
+6. Upon call to any method, method will get loaded in stack area under method area.
+7. Next Execution of main method will starts.
+8. Once entire execution is completed main() also come out of stack area.
+9. Next JVM before coming out of stack area it will make a call to garbage collector whose job is to cleanup
+ entire memory for next execution.
+ 
+ -----------
+| Conclusion  |
+ ‐‐‐‐‐‐‐‐‐‐‐-
+1. static methods and static variables are available (SPA) before execution starts,  
+       thats why they are accessible without object creation.
+2. Non static members are not available before execution so to access them we have to create an object.
+       With new keyword object will get created and loads all non static members inside it.
+       
+3. Non static variables and non static methods, they are loaded together in object so thats why since 
+        they belongs to same area non static variable can be accessed directly in non static method.
+        
+4. static members will get loaded only once in SPA thats why they are referred as single copy.
+5. Since Non static members will get loaded whenever we created an object thats why they referred as multiple copies.
+6. LOCAL variables are present in stack area and GLOBAL variables are present in heap area.
+7. static variables are present in SPA(Heap).
+8. Non static variables are present in object(Heap).
+9. All reference variables are local variables.
+10. Since once execution completes, method will come out of stack area that is the reason local variable scope is within method
+       beacuse they are present inside method.
