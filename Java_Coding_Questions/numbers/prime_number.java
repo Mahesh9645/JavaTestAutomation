@@ -4,7 +4,11 @@
 package numbers;
 public class prime_number {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		int a=13;
+=======
+		int a=12;
+>>>>>>> f17b50eeada71b9b7dc07a5da0e85bfd9688f113
 		boolean is_prime=true;
 		for (int i=2;i<a;i++){
 			if(a%i==0){

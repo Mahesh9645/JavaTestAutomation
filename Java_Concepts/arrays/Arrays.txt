@@ -23,6 +23,7 @@ Output is :300
 
 • Array stores only homogeneous data i.e, in integer array we can add only integer data, if we add any other type of data 
 we wil get compile time error.
+<<<<<<< HEAD
 
 
 
@@ -34,3 +35,5 @@ thired max
 smallest
 second smallest
 third smallest
+=======
+>>>>>>> f17b50eeada71b9b7dc07a5da0e85bfd9688f113

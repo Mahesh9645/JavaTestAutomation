@@ -30,7 +30,12 @@ line and it sends second line and it continues till last line like this whole co
 
 JDK-JAVA DEVELOPMENT KIT
 ---------------------------------------------
+<<<<<<< HEAD
 - IF WE WANT TO DEVELOP AND EXECUTE JAVA PROGRAM IN OUR SYSYTEM WE HAVE TO INSATLL JDK(JRE,JVM,SUPPORTING TOOLS 
+=======
+- IF WE WANT TO DEVELOP AND EXECUTE JAVA PROGRAM IN OUR 
+SYSYTEM WE HAVE TO INSATLL JDK(JRE,JVM,SUPPORTING TOOLS 
+>>>>>>> f17b50eeada71b9b7dc07a5da0e85bfd9688f113
 AND SUPPORTING CLASSES)
 
 Components of JDK

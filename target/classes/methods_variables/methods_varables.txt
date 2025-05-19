@@ -1,0 +1,35 @@
+Local Variables:
+- Defined inside a method.
+- Can only be used within that method.
+- Must be given a value before use (Java does not assign any default value).
+
+Global (Static) Variables:
+- Defined outside a method but inside a class.
+- Can be used anywhere in the class.
+- If not assigned a value, Java gives a default value.
+
+Is intialisation of global variable is mandatory?
+A. They are not mandatory to intialise, if we did not intialise, JVM will take default values based on data types.
+byte,short,int and long --------> 0
+float and double ------------> 0.0
+String ---------------------> null
+boolean ---------------------> false
+char ---------------------> empty space
+
+
+Global variables can be public, default, private, protected and final
+-Global variables are also called as Data members.
+
+
+If local var and global var names are same first priority is always given to local variables because they are
+inside method and nearer for execution to JVM
+
+Conclusion points
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+1. static variables can be accessed directly in static methods
+2. static variables can be accessed directly in non static methods
+3. Non static variables cannot be accessed directly in static methods
+4. Non static variables can be accessed directly in non static methods
+5. static method can be called directly from static methods
+6. static method can be called directly from non static methods
+7. Non static method cannot be called directly from static methods

@@ -24,7 +24,11 @@ import org.testng.Assert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Keywords {
+<<<<<<< HEAD
 	private WebDriver driver;
+=======
+    public WebDriver driver;
+>>>>>>> f17b50eeada71b9b7dc07a5da0e85bfd9688f113
     public JavascriptExecutor js;
     private Properties properties;
 

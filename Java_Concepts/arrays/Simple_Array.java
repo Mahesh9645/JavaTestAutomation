@@ -17,8 +17,18 @@ public class Simple_Array {
 		 System.out.println("First_Element :"+ a[0]);
 		 int b=a.length-1;
          System.out.println("Last_Element :"+  a[b]);
+<<<<<<< HEAD
 	}
 
 }
 
 //
+=======
+		
+		
+		
+		
+	}
+
+}
+>>>>>>> f17b50eeada71b9b7dc07a5da0e85bfd9688f113
