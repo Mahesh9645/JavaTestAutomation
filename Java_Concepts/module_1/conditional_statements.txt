@@ -1,0 +1,72 @@
+CONDITIONAL STATEMENTS
+----------------------
+
+TYPE 1
+-----------
+- Depending on conditions it switches control flow of execution from one statement to another statement.
+
+Syntax:
+----------
+ if(condition)
+{
+//Set of statements//
+}
+else
+{
+//set of statements
+}
+
+Type-2
+----------
+if(condition1)
+{
+// if body
+}
+else if(condition2)
+{
+ //else if body
+}
+else if(condition3)
+{
+ //elseif body
+}
+else
+{
+ //else body
+}
+
+Looping statements:
+--------------------
+
+Loop is defined as repeated execution.
+- If a part of code is repeatedly executing in our program rather than writing it multiple times, we can define it only once
+inside loop and run it as many times as we want
+- They are basically of 4 types
+1. for
+2. while
+3. do while
+4. for each(Enhanced or Advance for loop)
+
+for loop :
+------------
+we go for, for-loop if we know nmber of iteration priorly(already).
+  syntax: for(initialisation;condition;inc/dec)
+ {
+ }
+ 
+while loop :
+---------------
+we go for while loop if we don't know number of iterations.
+   syntax: initialisation;
+ while(condition)
+ {
+ inc/dec;
+ }
+ 
+do while loop :
+-------------------
+when we want our loop should run atleast one time then we go for do whle loop
+  syntax: do
+{
+inc/dec;
+}while(condition);

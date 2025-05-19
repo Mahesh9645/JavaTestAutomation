@@ -1,0 +1,62 @@
+Automation Testing:
+===================
+• Process of tesing the functionality of an application, by the help of automation tools is known as Automation Testing.
+
+Why we switch to Automation Testing ? (or) Advantages of Automation Testing ? 
+----------------------------------------------------------------------------
+
+1. We switch to Automaton testing when we have to do regression testing
+2. While regression testing, there are lot of repetative tasks, and performing them manually is a boring job.
+3. Also in regression when the product also increases, time taken to test also will increase. Hence, we switch to
+       automation to reduce the time taken for testing.
+4. To reduce the manpower/number of resources.
+5. To obtan the test results faster.
+6. To get quick ROI(Returns On Investment)
+7. We can expect accurate results.
+8. Due to tough competition, software companies need to deliver high quality product within less time. Hence,
+      we switch to Automation Testing.
+Notes:
+======
+• We cannot automate progression testing, because we don't know the flow of the functionality testng. 
+• We sart automating from the second release. 
+• Anything which is completely dynamic cannot be automated. 
+ Ex: Pc-games, OTPs      
+ 
+ Drawbacks/Limitations of Automation Testing 
+-------------------------------------------- 
+• 100% Automation testing is not possible. 
+• Anything which is completely dynamic cannot be automated. 
+• Anything which requires manual intervention(interaction) cannot be automated. 
+ eg, what all cannot be AUTOMATED......... 
+ 1.OTP, CAPTCHA 
+ 2.Making Payments through swiping the Debit/Credit card
+ 3.Barcode scanner, QR code Scanning 
+ 4.Animation 
+ 5.Testing the quality of audio/video 
+ 6.Game Testing 
+• We need skilled resources to do automation testing. 
+• Cost involved in Automation testing is more compared to manual testing, because of tools are licensed and automation skilled 
+      resources are paid higher. 
+• We can't automate an unstable product, we have o wait for the product to become stable.(newly built features will not be automated)     
+
+
+1.What is Selenium ? 
+
+Selenium is a free, Open-Source, Web-based Application automation tool.
+
+Selenium Versions / Selenium Components / Selenium Flavors 
+----------------------------------------------------------- 
+• Selenium Core 
+• Selenium IDE - Record and play back tool 
+• Selenium RC(Remote Control) / Selenium-1 
+• Selenium WebDriver
+• Selenium Grid - for parallel execution of tests across multiple machines and browsers
+
+RC Drawback : 
+------------ 
+1. We need a server without which automation is not possible
+
+They are 3 types of applications - 
+1. Standalone/Desktop application : chrome, firefox, safari
+2. Web application : gmail
+3. Client server/Mobile application :

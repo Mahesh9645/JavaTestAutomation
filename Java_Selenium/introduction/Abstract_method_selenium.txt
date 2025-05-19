@@ -1,0 +1,35 @@
+==================WebDriver Abstract Methods(Browser Window Related Methods)============================================
+
+1. get(String url) : used to enter the URL
+2. getCurrentUrl() : used to get the URL of the Current WebPage
+3. getPageSource() : used to get the Source code of the Current WebPage
+4. getTitle() :      used to get the title of the Current WebPage
+
+5. getWindowHandle() : used to get the window handle of the current browser window  ( String )
+6. getWindowHandles() : used to get the window handle of all the browser windows   (  Set<String>  )
+
+7. manage() :          used to manage browser window
+8. navigate() :         used to navigate from ome page to another, previous page, next page, can refresh current WebPage
+
+9. findElement(By arg) :  find a particular element on the WebPage  ( WebElement )
+10.findElements(By arg) : find multiple elements on the WebPage      (  List<WebElement>  )
+
+11.switchTo() :           used to switch our control from WebPage to popups, frames, windows etc
+12.close() :             close the current browser window
+13.quit() :              close all the browser windows opened by selenium
+
+====================Difference b/w get() & navigate()=======================================================
+
+get() 
+======
+1. it wait for the untill the page load 
+2.Enter the url
+3. it will not take the advantages of browser history
+
+navigate()
+==========
+1.it will not wait for page load 
+2.Enter the url , navigate previous page , next page , refresh.
+3.it will take advantage of browser histroy .
+
+	

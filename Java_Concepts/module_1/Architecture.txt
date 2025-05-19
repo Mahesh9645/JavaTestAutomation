@@ -1,0 +1,48 @@
+=====================Architecture of Java=========================
+
+Diagram :
+=========
+
+Source code ========> java compiler =======>Byte code =====> JVM (java virtual machine )========>OPerating system .
+
+Important points :
+=================
+Step-1:
+
+-->whatever program we write it is called as source code,source code should always save as ext ".java"
+
+Step-2: Compilation:
+
+--->The process of converting our program into system understandable form t0 (byte code) is purpose of compiling a program.
+---->Compilation is done at once, During compilation, compiler will check syntax errors like [ ], ;,(),{ },:,spellings 
+and case sensitivity.
+----->If anything is wrong we will get compile time error.If nothing is wrong there is one class file get generated (byte code file) with same 
+as .class
+
+Step-3: Execution:
+
+---->-JVM -java virtual machine is responsible for execution of every java program
+----->-JVM's can identify by ------> Public static void main (String [ ] args)
+----->execution will happen in line by line manner ,during execution JVM will find logical error of program.
+----->d take first line and give to operating system for execution, once OS responds that i understood that 
+line and it sends second line and it continues till last line like this whole code of class file gets executed.
+
+
+JDK-JAVA DEVELOPMENT KIT
+---------------------------------------------
+- IF WE WANT TO DEVELOP AND EXECUTE JAVA PROGRAM IN OUR SYSYTEM WE HAVE TO INSATLL JDK(JRE,JVM,SUPPORTING TOOLS 
+AND SUPPORTING CLASSES)
+
+Components of JDK
+---------------------------
+-JRE - java runtime environment
+-JVM - java virtual machine
+
+JRE : -IT IS USED FOR EXECUTING JAVA PROGRAM OR RUNNING JAVA APP
+
+JVM : IT IS RESPONSIBLE TO EXECUTE EVERY JAVA PROGRAM.
+
+Note: when we install JDK with that JVM and JRE are available.
+
+JIT : Just In Time compiler
+- It helps JVM by taking code of class file line by line and give to OS.

@@ -1,0 +1,57 @@
+Keywords :-
+----------------
+- These are the reserve words.- Various keywords in java are,
+
+1.accessible keywords   : public, private, protected, static, final, abstract and return.
+----------------------
+ // System(not keyword) is predefined class, it should start with capital letter.
+
+2.conditional keywords  : if, else, else if, switch, case, break, continue, goto, const and default.
+------------------------
+
+3.iterative keywords   :  for, while, do while
+---------------------
+
+4.class level   :  class, package, import, extends, implements, interface, new
+--------------
+
+5.Exception level :  try, catch, throw, throws, finally
+----------------
+
+6.Others  : volatile, transient, synchronised, native etc
+---------
+
+Note :
+---------
+All keywords must starts with smaller case
+
+======================================================Identifiers ===============================================================
+
+- These are the names given by programmer as per convention
+Ex: class name, variable name, method name and package name.
+ rule ------------> should be followed
+ convention ----> if we don't follow also no problem
+ 
+ 
+ Rules for defining identifiers :
+------------------------------------
+1.An identifier can be a combination of A-Z,a-z,0-9,$ and _ but standard is,
+   class name : starts with capital(convention)
+   
+2.If an identifier contains more than one word spaces are not allowed.
+   class My program----->Invalid
+   class Myprogram----->valid
+   
+3.An identifier cannot starts with digit.
+    class 1A------->Invalid
+    class A1--------->valid
+    
+4.class name contains more than one word for all words first letter should be capital
+    class MyFirstProgram(Convention)
+    
+5.If a method name and variable name contains more than one word from second word firstletter should be capital(Convention).
+     int myAge;
+     
+6.A variable name and class name cannot be keyword.
+     Ex: class new----->Invalid
+         int static------->Invalid

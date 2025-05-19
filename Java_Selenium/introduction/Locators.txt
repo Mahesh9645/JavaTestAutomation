@@ -1,0 +1,75 @@
+
+ ===========================     Locators   =================================================================
+ Locators are used to locate one or more elemens on the webpage. Locators are static methods of abstract 'By' class.
+ 
+ Types of Locators :- 
+------------------- 
+1. tagName(String arg)
+2. id(String arg)
+3. name(String arg)
+4. className(String arg)
+5. linkText(String arg)
+6. partialLinkText(String arg)
+7. cssSelector(String arg)
+8. xpath(String arg)
+
+   cssSelector 
+=================
+- Here we can identify any element by giving both tag and attribute 
+
+• Syntax: tagName[AtributeName='AttributeValue'] 
+
+• Example: a[href='https://www.google.com'] 
+• Example: a[id='i1'] 
+• Example: a[name='n1'] 
+• Example: a[class='c1'] 
+• Example: a[value='v1'] 
+• Example: a[title='t1']
+
+   Shortcuts of Css Selector :- 
+   ------------------------
+• Shortcut for id is( # )
+ div[id='i1'] 
+ div#i1 
+ #i1 
+ 
+• Shortcut for class is( .) 
+ div[class='c2'] 
+ div.c2 
+ .c2
+ 
+ Limitation of CssSelector : 
+ ==========================
+• To use cssSelector minimum 1 attribute should be present which is unique, if no attribute is present, we can't use 
+     cssSelector because cssSelector does not support text.
+     
+==========xpath ===================================- 
+
+  • xpath is one of the locator which covers all possible ways to find an element 
+
+• There are two types of xpath - 
+1. Absolute xpath 
+2. Relative xpath
+
+1. Absolute xpath
+==================
+Absolute xpath means complete path we travel from start(html) element
+
+2.Relative xpath : 
+==================
+• Shortest path of element in HTML Tree
+
+Cases of Relative xpath: 
+-----------------------
+Case 1: xpath by unique attribute 
+
+Syntax: //tagName[@AttributeName='AtributeValue'] 
+
+Ex-1://div[@id='SIvCob'] ---> https://www.google.com/ 
+Ex-2://p[@class='login'] ---> https://www.skillrary.com/user/login 
+Ex-3://span[@class='icp-nav-link-inner'] ---> https://www.amazon.in/
+
+
+
+ 
+ 

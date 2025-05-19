@@ -1,0 +1,32 @@
+
+
+
+
+class Mobile{
+    private String mobile;
+    
+    public void set(String mobile){
+        
+        this.mobile=mobile;
+        System.out.println(mobile);
+    }
+    public String get(){
+        if(mobile == "IQOO"){
+            return "yes";
+        }
+        else{
+            return "no";
+        }
+    }
+
+}
+
+public class Main {
+    public static void main(String[] args) {
+        
+       System.out.println(m1.mobile);
+       m1.set("IQOO");
+       System.out.println(m1.get());
+
+    }
+}
