@@ -30,4 +30,4 @@ SetUp Instructions:
 1.Update maven Project-->mavan clean -->maven install
 2.Change config.properties as requirment (browser and Url)
 3.All files located in \src\test\java\Launch package & its based on TestNG framework
-4.
+
